@@ -1,0 +1,41 @@
+.form{
+    margin:0 auto;
+    width: 300px;
+    background-color: rgb(0, 132, 255);
+    padding: 20px 20px 20px 20px;
+    margin-top: 30px;
+}
+.label{
+    display: flex;
+    flex-direction:column;
+}
+input ,option,select{
+    height: 25px;
+}
+option,select{
+    height: 30px;
+}
+label{
+    margin: 2x;
+}
+button{
+    margin: 0 auto;
+    height: 30px;
+    margin-top: 10px;
+    width: 300px;
+    font-size: 20px;
+    background-color: aquamarine;
+}
+h1{
+    margin: auto;
+    width: 345px;
+    font-size: 35px;
+    margin-top: 20px;
+}
+body{
+
+    background-image: url(../img/body.png);
+    background-repeat: no-repeat;
+    background-size: 1500px 650px;
+  
+}
