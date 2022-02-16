@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/formulaire.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>incription</title>
+</head>
+<body>
+    
+   <div class="form">
+    <form action="">
+      <div><label for="nom">nom</label>
+        <input type="text" placeholder="nom" name="nom">
+      </div>
+        <div>
+          <label for="prénom">prénom</label>
+        <input type="text" placeholder="prénom" name="prenom">
+        </div>
+        <div>
+          <label for="email">adresse email</label>
+        <input type="email" name="email" id="email" placeholder="email">
+        </div>
+        <div>
+          <label for="date">date de naissance</label>
+        <input type="date" name="date" id="date"placeholderdate>
+        </div>
+        <div>
+          <label for="tel">tel</label>
+        <input type="tel" name="tel" id="tel" placeholder="tel">
+        </div>
+       <div>
+        <label for="cni">cni</label>
+        <input type="hidden" name="MAX_FILE_SIZE" value="100" /> 
+        <input name="file" type="file" id="cni" placeholder="cni;passport"/>
+       </div>
+      <div>  
+        <p>civilité</p>
+       <select name="civilité" id="civilité">
+        
+         <option value="">femme</option>
+         <option value="homme">homme</option>
+       </select>
+      </div>
+       <div>
+        <label for="pass">mot de pass</label>
+        <input type="password" name="pass" id="pass" placeholder="pass">
+     
+       </div>
+     <button type="submit">s'incrire</button>
+
+    </form>
+   </div>
+</body>
+</html>
